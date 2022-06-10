@@ -1,0 +1,10 @@
+#ASSIGN A VALUE TO SALARY VARIABLE
+salary = 2500.0
+
+#ASSIGN A VALUE TO BONUS
+bonus = 1200.0
+
+pay = salary + bonus
+
+#CALCULATE TOTAL PAY BY ADDING SALARY AND BONUS
+print("Your Total Pay is: ", pay)

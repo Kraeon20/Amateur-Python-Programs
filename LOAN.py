@@ -1,0 +1,8 @@
+MIN_SALARY = 30000
+MINYEAR = 2
+salary = float(input("WHAT IS YPUR SALARY PER YEAR?\nSALARY: "))
+yearsWorked = int(input("HOW MANY YEARS HAVE YOU BEEN EMPLOED?\nYEARD WORKED: "))
+if salary >= MIN_SALARY or yearsWorked >= MINYEAR:
+        print("CONGRAGULATIONS! YOU QUALIFY FOR THE LOAN")
+else:
+    print("YOU DO NOT QIALIFY FOR THE LOAN")

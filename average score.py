@@ -1,0 +1,5 @@
+MATH = float(input("what was your score in MATHEMATICS?\n"))
+ENGLISH = float(input("what was your score in ENGLISH?\n"))
+SCIENCE = float(input("what wa your score in SCIENCE?\n"))
+average = ((MATH + ENGLISH + SCIENCE)/3.0)
+print("your average score is\n", average)
